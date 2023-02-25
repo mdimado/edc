@@ -1,0 +1,281 @@
+/* Global styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 10px 50px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.logo img {
+	float: left;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 15px;
+}
+
+nav a {
+  width: 100%;
+	padding: 5px;
+	transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+	color: #5f4ae4;
+}
+
+
+
+.container {
+  width: 100%;
+  float: right;
+}
+
+img {
+  float: right;
+}
+
+
+.custom-shape-divider-bottom-1677295112 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677295112 svg {
+  position: absolute;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 128px;
+}
+
+.custom-shape-divider-bottom-1677295112 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+/* Hero section */
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #7665ff;
+	padding: 100px;
+	color: #fff;
+}
+
+.hero-content {
+	flex: 1;
+}
+
+.hero h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+.hero .button {
+	padding: 10px 20px;
+	background-color: #ffcd2c;
+	color: #7665ff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.hero .button:hover {
+	background-color: #7665ff;
+	color: #ffcd2c;
+	cursor: pointer;
+}
+
+.hero img {
+	max-width: 50%;
+	margin-left: 50px;
+}
+
+/* About section */
+
+.about {
+	padding: 100px;
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+/* Achievements section */
+
+.achievements {
+	padding: 100px;
+	text-align: center;
+}
+
+.achievements h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.achievements li {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+/* Contact section */
+
+.contact {
+	padding: 100px;
+	text-align: center;
+}
+
+.contactUs h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.contactUs form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactUs label {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.contactUs input, .contactUs textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.contactUs input:focus, .contactUs textarea:focus {
+	outline: none;
+	box-shadow: 0 0 5px rgba(118, 101, 255, 0.5);
+}
+
+.contactUs textarea {
+	height: 150px;
+}
+
+.contactUs button {
+	padding: 10px 20px;
+	background-color: #7665ff;
+	color: #ffcd2c;
+	border: none;
+	border-radius: 5
+}
+/* Contact Us section styles */
+
+.contactUs {
+  background-color: #f6f6f6;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUs h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+.contactUs form {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUs label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.contactUs input[type="text"],
+.contactUs input[type="email"],
+.contactUs textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contactUs textarea {
+  height: 200px;
+}
+
+.contactUs input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #7665ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactUs input[type="submit"]:hover {
+  background-color: #5d4ce8;
+}
